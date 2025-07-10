@@ -85,3 +85,33 @@ footer {
 .actImg {
   border-radius: 20px;
 }
+
+/* productive Users section  */
+
+.productiveUsers {
+  border-radius: 24px;
+  background: rgba(78, 71, 255, 0.1);
+  text-align: center;
+  margin-bottom: 100px;
+}
+.productiveUsersTittle {
+  font-weight: 700;
+  font-size: 38px;
+  padding: 50px 0px 40px 0px;
+}
+.users {
+  display: flex;
+  justify-content: space-evenly;
+}
+.usersCount {
+  font-weight: 800;
+  font-size: 80px;
+  color: #4e47ff;
+}
+
+.usersCountP {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 50px;
+}
