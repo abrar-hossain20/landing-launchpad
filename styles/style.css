@@ -20,7 +20,10 @@
   transition-duration: 0.4s;
 }
 
-main,
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
 footer {
   max-width: 1440px;
   margin: 0 auto;
@@ -67,7 +70,8 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 100px 0px;
+  padding-top: 100px;
+  margin-bottom: 100px;
 }
 .actionTittle {
   font-size: 50px;
@@ -117,12 +121,47 @@ footer {
   padding-bottom: 50px;
 }
 
+/* feedback section */
+
+.feedbackH {
+  text-align: center;
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  box-sizing: border-box;
+  border: 1px solid rgb(242, 237, 237);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 25px;
+}
+.cardDes {
+  margin: 10px 0px;
+}
+.reviewer {
+  display: flex;
+  gap: 15px;
+}
+.reviewerName {
+  color: rgb(117, 117, 117);
+  font-weight: 600;
+}
+.reviewDate {
+  color: rgb(179, 179, 179);
+}
+
 /* get in touch section */
 
 .getInTouch {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 100px;
   margin-bottom: 100px;
 }
 
@@ -175,7 +214,7 @@ footer {
   font-size: 16px;
   font-weight: 400;
 
-  margin-bottom:  30px ;
+  margin-bottom: 30px;
 }
 .footUL {
   display: flex;
