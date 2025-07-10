@@ -19,6 +19,12 @@
   transition-duration: 0.4s;
 }
 
+main,
+footer {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
 /* header section */
 
 .header {
@@ -34,7 +40,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 50px 50px;
+  padding: 50px 0px;
 }
 .nav-logo {
   color: #4e47ff;
@@ -45,9 +51,37 @@
   font-size: 65px;
   color: #252432;
   font-weight: 700;
-  margin-top: 96px;
+  margin-top: 160px;
   margin-bottom: 48px;
 }
 .bannerBtn {
   margin-bottom: 150px;
+}
+
+/* main section */
+
+/* action section */
+
+.action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px 0px;
+}
+.actionTittle {
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.actionDes {
+  color: rgba(37, 36, 50, 0.5);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  margin: 20px 0px;
+}
+
+.actImg {
+  border-radius: 20px;
 }
