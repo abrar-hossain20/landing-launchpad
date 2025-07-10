@@ -115,3 +115,42 @@ footer {
   font-weight: 400;
   padding-bottom: 50px;
 }
+
+/* get in touch section */
+
+.getInTouch {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.getH {
+  color: rgb(0, 0, 0);
+  font-size: 97px;
+  font-weight: 700;
+}
+.getFormInput {
+  box-sizing: border-box;
+  border: 1px solid rgb(214, 221, 237);
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+  width: 497px;
+  height: 70px;
+  align-items: center;
+  gap: 10;
+  padding: 20px 32px 20px 32px;
+  margin: 10px 0px;
+}
+.getFormsubmit {
+  box-sizing: border-box;
+  border: 1px solid rgb(214, 221, 237);
+  border-radius: 10px;
+  width: 497px;
+  height: 70px;
+  align-items: center;
+}
+.forLabel {
+  font-size: 18px;
+  font-weight: 500;
+}
